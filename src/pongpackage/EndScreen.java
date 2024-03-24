@@ -37,7 +37,7 @@ public class EndScreen extends JPanel implements KeyListener{
 	
 	 public EndScreen(Ohio winner)
 	 {
-		System.out.println("yipee?");
+		
 		this.winner = winner;
 		setBounds(0, 0, Window.SIZE_W, Window.SIZE_H);
 		this.setBackground(Color.black);

@@ -88,11 +88,9 @@ public class GamePong extends JPanel implements KeyListener
 					}
 					switch(score.check()) {
 			    	case PONE:
-			    		System.out.println("You like kissing boys don't you?");
 			    		w.changeScreen(Texas.ENDSCREEN);
 			    		break;
 			    	case PTWO:
-			    		System.out.println("What about MEN.");
 			    		w.changeScreen(Texas.ENDSCREEN);
 			    		break;
 					}
@@ -104,7 +102,7 @@ public class GamePong extends JPanel implements KeyListener
 						sped++;
 						
 					}
-					System.out.println(score);
+					
 					
 					//bounce off left
 //					 newDirX = pong.getDirX() * -1;

@@ -55,7 +55,7 @@ public class ScoreBoard {
 	
 	public void addPoint(String player)
 	{
-		 System.out.println(player);
+		 
 		 if(player.equalsIgnoreCase("p1"))
 		 {
 			p1Score++;

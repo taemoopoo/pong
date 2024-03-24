@@ -88,7 +88,7 @@ public class Window extends JFrame
 	        this.setLocationRelativeTo(null);
 	        break;
     	case START:
-    		System.out.println("bad");
+    		
     		start = new StartScreen();
     		start.addKeyListener(start);
     		start.w = this;
@@ -98,10 +98,10 @@ public class Window extends JFrame
     		this.setLocationRelativeTo(null);
     		this.setVisible(true);
     		this.setLayout(null);
-    		System.out.println("wassup");
+    		
     		break;
     	case ENDSTART:
-    		System.out.println("bad");
+    		
     		start = new StartScreen();
     		start.addKeyListener(start);
     		start.w = this;
@@ -112,7 +112,7 @@ public class Window extends JFrame
     		this.setVisible(true);
     		this.setLayout(null);
     	case ENDSCREEN:
-    		System.out.println("good");
+    		
     		end = new EndScreen(game.score.check());
     		end.addKeyListener(end);
     		end.w = this;
@@ -125,7 +125,7 @@ public class Window extends JFrame
     		break;
     	case CREDITS:
     		
-    		System.out.println("Yo");
+    		
     		credit = new Credits();
     		credit.addKeyListener(credit);
     		credit.w = this;
