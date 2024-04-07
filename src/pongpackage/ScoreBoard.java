@@ -69,11 +69,11 @@ public class ScoreBoard {
 	}
 	public EndScreen.Ohio check()
 	{
-		 if(p1Score == 1)
+		 if(p1Score == 10)
 		 {
 			return EndScreen.Ohio.PONE;
 		 }
-		 if(p2Score == 1000000)
+		 if(p2Score == 1)
 		 {
 			return EndScreen.Ohio.PTWO;
 		 }

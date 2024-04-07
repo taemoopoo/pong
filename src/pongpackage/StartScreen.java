@@ -36,6 +36,7 @@ public class StartScreen extends JPanel implements KeyListener
 	
 	public StartScreen()
 	{
+		System.out.print(" start");
 		begin = false;
 		setBounds(0, 0, Window.SIZE_W, Window.SIZE_H);
 		arrow = arrow.START;

@@ -37,6 +37,7 @@ public class Credits extends JPanel implements KeyListener{
 	
 	public Credits()
 	{
+		System.out.print(" ran");
 		//me
 		selector = Alabama.BACK;
 		setBounds(0, 0, Window.SIZE_W, Window.SIZE_H);

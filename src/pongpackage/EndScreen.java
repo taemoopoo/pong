@@ -23,8 +23,8 @@ public class EndScreen extends JPanel implements KeyListener{
 	 */
 	enum Ohio
 	{
-		 PONE,
-		             																											PTWO,
+		PONE,
+		PTWO,
 		LBOZO
 	}
 	private Ohio winner;
@@ -37,7 +37,6 @@ public class EndScreen extends JPanel implements KeyListener{
 	
 	 public EndScreen(Ohio winner)
 	 {
-		
 		this.winner = winner;
 		setBounds(0, 0, Window.SIZE_W, Window.SIZE_H);
 		this.setBackground(Color.black);
@@ -55,7 +54,7 @@ public class EndScreen extends JPanel implements KeyListener{
 			yipee = new JLabel("PLAYER 1 WON",SwingConstants.CENTER);
 			break;
 		case PTWO:
-			yipee = new JLabel("PLAYER 1 STILL WON HAHA L",SwingConstants.CENTER);
+			yipee = new JLabel("PLAYER 2",SwingConstants.CENTER);
 			break;
 		 case LBOZO:
 		 	yipee = new JLabel("IDK I STILL WON",SwingConstants.CENTER);
